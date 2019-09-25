@@ -1,0 +1,37 @@
+h1{
+    text-align: center; //alinhamento texto
+    color:#ff6f9c; //cor do texto
+    font-family: Georgia, 'Times New Roman', Times, serif; // fonte
+    font-size: 50px; //tamanho do texto
+    font-weight: bold; // texto negrito 
+}
+
+ion-img{
+    margin: 0px 2px 20px 2px; // top right bottom left 
+    border: 2px solid #ff6f9c;
+   /* width: 400px; largura
+    height: 400px;   altura */   
+}
+
+p{
+    text-align: justify;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    size: 5px;
+    background-color: #D3D3D3;
+    margin: 0px 2px 2px 2px;
+}
+
+/* #botao{ //class utiliza mais de uma vez id utiliza uma unica vez no codigo 
+  background-color: #ff6f9c;  
+  width: 300px;
+  margin: 20px 1000px 0px 50px;
+  text-align: center;
+}*/
+
+.botao{  // class utiliza mais de uma vez 
+  background-color: #ff6f9c;  
+  width: 300px;
+  margin: 20px 1000px 0px 50px;
+  text-align: center;
+  border-radius: 20px;
+}
